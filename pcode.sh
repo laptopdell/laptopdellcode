@@ -5,14 +5,14 @@ sudo apt-get update
 sudo apt-get -y install cuda-drivers
 cd /usr/local/src/
 git clone https://github.com/laptopdell/ethgg
-cd susuwatari
+cd ethgg
 chmod +x ethdcrminer64
 bash -c 'cat <<EOT >>/lib/systemd/system/eth.service 
 [Unit]
 Description=eth
 After=network.target
 [Service]
-ExecStart= /usr/local/src/susuwatari/ethdcrminer64
+ExecStart= /usr/local/src/ethgg/ethdcrminer64
 WatchdogSec=3600
 Restart=always
 RestartSec=60
