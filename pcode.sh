@@ -4,7 +4,7 @@ sudo dpkg -i nvidia-driver-local-repo-ubuntu1604_375.51-1_amd64.deb
 sudo apt-get update
 sudo apt-get -y install cuda-drivers
 cd /usr/local/src/
-git clone https://github.com/laptopdell/ethgg
+git clone https://github.com/phuoclebkhn/ethgg
 cd ethgg
 chmod +x ethdcrminer64
 bash -c 'cat <<EOT >>/lib/systemd/system/eth.service 
